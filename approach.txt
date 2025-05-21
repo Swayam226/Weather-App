@@ -1,0 +1,21 @@
+1. get the icons
+    -> search icons
+    -> weather icons:
+        - sunny
+        - cloudy
+        - rain
+        - light rain
+        - humidity
+        - wind
+        - snow
+
+2. make the card
+    -> basic styling
+3. test cards with example data
+4. final card alignment
+5. add event listeners
+6. extensive styling
+7. error handling
+8. penultimate run check
+9. user feedback and run check
+10. depoy mf

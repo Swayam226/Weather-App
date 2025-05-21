@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    background-color: #2b6777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 3rem;
+    color: white;
+}
+
+.mainsection{
+    height: 70vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 80%;
+    background-color: #52ab98;
+    background: linear-gradient( cyan, #52ab98);
+    width: 21%;
+    /* border: 2px solid white; */
+    border-radius: 25px;
+}
+
+.searcharea{
+    /* width: 90%; */
+    height: 20%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#searchbox{
+    height: 39.2px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding-left: 16px;
+}
+
+::placeholder{
+    font-weight: 500;
+}
+
+#searchbutton{
+    border-radius: 24px;
+    width: 56.2px;
+    height: 39.2px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#searchicon{
+    height: 24px;
+    width: 24px;
+}
+
+#skytemp{
+    height: 60%;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weathericon{
+    /* background-color: pink; */
+    margin-top: 20px;
+    width: 35%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cloudimg{
+    width: 80%;
+    height: 80%;
+}
+
+.tempdiv{
+    height: 30%;
+    width: 60%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#temptext{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    /* padding-bottom: 10px; */
+}
+
+.citydiv{
+    height: 30%;
+    width: 60%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#citytext{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+#humidwind{
+    height: 20%;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+}
+
+.humiditydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.humidtext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.humidity{
+    font-size: 12px;
+}
+
+.winddiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.windtext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wind{
+    font-size: 12px;
+}
+/* span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+} */
+
+/* .humidity{
+    width: 50px;
+    height: 50px;
+    color: black;
+} */
+
+#humidityimg{
+    width: 25px;
+    height: 25px;
+}
+
+/* .wind{
+    width: 50px;
+    height: 50px;
+    color: black;
+} */
+
+#windimg{
+    width: 25px;
+    height: 25px;
+}
+
+.footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #2b6777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+

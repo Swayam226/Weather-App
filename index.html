@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weathery - Know the Heat!!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar" id="navbar">
+      <p class="title">Weathery - Know the Heat!!</p>
+    </div>
+    <div class="mainsection" id="mainsection">
+      <div class="card" id="card">
+        <div class="searcharea" id="searcharea">
+          <input type="text" placeholder="Search City" id="searchbox" />
+          <button id="searchbutton">
+            <img
+              id="searchicon"
+              src="/Projects/Weather App/assets/search.png"
+              alt="Search Icon"
+            />
+          </button>
+        </div>
+
+        <div class="skytemp" id="skytemp">
+          <div class="weathericon">
+            <img
+              id="cloudimg"
+              src="/Projects/Weather App/assets/cloudy.png"
+              alt=""
+            />
+          </div>
+          <div class="tempdiv" id="tempdiv">
+            <p id="temptext">36&deg;C</p>
+          </div>
+          <div class="citydiv" id="citydiv">
+            <p id="citytext">Jamshedpur</p>
+          </div>
+        </div>
+
+        <div class="humidwind" id="humidwind">
+          <div class="humiditydiv">
+            <img
+              id="humidityimg"
+              src="/Projects/Weather App/assets/humidity.png"
+              alt=""
+            />
+            <div class="humidtext">
+              <p class="humiddata">65%</p>
+              <p class="humidity">Humidity</p>
+            </div>
+          </div>
+
+          <div class="winddiv">
+            <img
+              id="windimg"
+              src="/Projects/Weather App/assets/wind.png"
+              alt=""
+            />
+            <div class="windtext">
+              <p class="winddata">76Km/h</p>
+              <p class="wind">Wind</p>
+            </div>
+          </div>
+          <!-- <span class="humidity"
+            ><img
+              id="humidityimg"
+              src="/Projects/Weather App/assets/humidity.png"
+              alt=""
+            />76%</span
+          >
+
+          <span class="wind"
+            ><img
+              id="windimg"
+              src="/Projects/Weather App/assets/wind.png"
+              alt=""
+            />64Km/H</span
+          > -->
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="footer" id="footer">Footer</p>
+    </div>
+  </body>
+</html>
