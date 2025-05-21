@@ -34,7 +34,7 @@
     height: 80%;
     background-color: #52ab98;
     background: linear-gradient( cyan, #52ab98);
-    width: 21%;
+    width: 338px;
     /* border: 2px solid white; */
     border-radius: 25px;
 }
@@ -224,5 +224,44 @@
     justify-content: center;
     align-items: center;
     color: white;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footertext{
+    font-size: 18px;
+}
+
+.copyright{
+    font-size: 12px;
+    width: 300px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 12px;
+}
+@media (max-width: 800px) {
+
+    .title{
+        font-weight: 400;
+        font-size: 22px;
+        color: white;
+    }
+
+    .card{
+        width: 300px;
+    }
+
+    #searchbutton{
+        width: 60px;
+    }
+
+    #humidwind{
+        gap: 75px;
+    }
+
 }
 
