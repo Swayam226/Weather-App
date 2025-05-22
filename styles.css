@@ -32,8 +32,11 @@
 
 .card{
     height: 80%;
-    background-color: #52ab98;
-    background: linear-gradient( cyan, #52ab98);
+    /* background-color: #52ab98; */
+    /* background: linear-gradient( cyan, #52ab98); */
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+
+
     width: 338px;
     /* border: 2px solid white; */
     border-radius: 25px;
@@ -104,7 +107,7 @@
 
 #cloudimg{
     width: 80%;
-    height: 80%;
+    height: 98%;
 }
 
 .tempdiv{
@@ -119,7 +122,7 @@
 #temptext{
     color: white;
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 420;
     /* padding-bottom: 10px; */
 }
 
@@ -136,6 +139,7 @@
     color: white;
     font-size: 22px;
     font-weight: 400;
+    text-align: center;
 }
 
 
