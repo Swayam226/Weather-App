@@ -25,9 +25,6 @@ const humiddetail = document.querySelector(".humiddata");
 const winddetail = document.querySelector(".winddata");
 
 
-const API_KEY = "0ddb8e9ef9112093ca0c40a9b6b0c531"
-
-
 console.log(API_KEY);
 
 

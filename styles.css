@@ -32,13 +32,8 @@
 
 .card{
     height: 80%;
-    /* background-color: #52ab98; */
-    /* background: linear-gradient( cyan, #52ab98); */
     background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
-
-
     width: 338px;
-    /* border: 2px solid white; */
     border-radius: 25px;
 }
 
@@ -88,7 +83,6 @@
 
 #skytemp{
     height: 60%;
-    /* background-color: red; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -96,7 +90,6 @@
 }
 
 .weathericon{
-    /* background-color: pink; */
     margin-top: 20px;
     width: 35%;
     height: 35%;
@@ -113,7 +106,6 @@
 .tempdiv{
     height: 30%;
     width: 60%;
-    /* background-color: black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,16 +115,13 @@
     color: white;
     font-size: 60px;
     font-weight: 420;
-    /* padding-bottom: 10px; */
 }
 
 .citydiv{
     height: 30%;
     width: 60%;
-    /* background-color: gray; */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 #citytext{
@@ -190,30 +179,11 @@
 .wind{
     font-size: 12px;
 }
-/* span{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-} */
-
-/* .humidity{
-    width: 50px;
-    height: 50px;
-    color: black;
-} */
 
 #humidityimg{
     width: 25px;
     height: 25px;
 }
-
-/* .wind{
-    width: 50px;
-    height: 50px;
-    color: black;
-} */
 
 #windimg{
     width: 25px;
