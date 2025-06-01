@@ -16,6 +16,10 @@ all this will be updated throught the first ACTION OF SEARCHING A PARTICULAR CIT
 
 
 */
+
+const API_KEY = "0ddb8e9ef9112093ca0c40a9b6b0c531"
+
+
 const searchbox = document.querySelector("#searchbox");
 const search = document.querySelector("#searchbutton");
 const weatherimg = document.querySelector("#cloudimg");
@@ -65,15 +69,15 @@ search.addEventListener("click", async () => {
 
         // displaying required weather icon
         if (condition == "Clouds")
-            cloudimg.src = "/Weather App/assets/cloudy.png";
+            cloudimg.src = "/Projects/Weather App/assets/cloudy.png";
         else if (condition == "Rain")
-            cloudimg.src = "/Weather App/assets/rainy.png";
+            cloudimg.src = "/Projects/Weather App/assets/rainy.png";
         else if (condition == "Snow")
-            cloudimg.src = "/Weather App/assets/snowy.png"
+            cloudimg.src = "/Projects/Weather App/assets/snowy.png"
         else if (condition == "Clear")
-            cloudimg.src = "/Weather App/assets/sunny.png"
+            cloudimg.src = "/Projects/Weather App/assets/sunny.png"
         else if (desc == "Shower rain")
-            cloudimg.src = "/Weather App/assets/light rain.png"
+            cloudimg.src = "/Projects/Weather App/assets/light rain.png"
 
         // displaying temperature
         tempdetail.textContent = `${tempdata}°C`;
