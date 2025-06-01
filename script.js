@@ -17,8 +17,6 @@ all this will be updated throught the first ACTION OF SEARCHING A PARTICULAR CIT
 
 */
 
-const API_KEY = "0ddb8e9ef9112093ca0c40a9b6b0c531"
-
 
 const searchbox = document.querySelector("#searchbox");
 const search = document.querySelector("#searchbutton");
